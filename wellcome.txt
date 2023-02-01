@@ -1,0 +1,21 @@
+step 1: install git
+-> sudo apt install git -y
+
+install node
+-> sudo apt install curl -y
+-> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+
+// restart terminal (tat va bat lai terminal)
+
+-> nvm install 14.14.0
+-> nvm install 15.14.0
+
+step 2: clone nextcloud from github
+-> git clone https://github.com/kma-custom-nextcloud/server.git
+-> cd server
+
+step 3: set permission to start.sh file
+-> sudo chmod +x start.sh
+
+step 4: run file start.sh
+-> ./start.sh
